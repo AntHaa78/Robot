@@ -12,6 +12,6 @@ Google search
     Open Browser    ${URL}  ${BROWSER}
     Wait Until Element Is Visible    id:W0wltc
     Click Element    id:W0wltc
-    Input Text    name=q    Lamdatest
+    Input Text    name=q    Lambdatest
     Submit Form
     Sleep    3s
