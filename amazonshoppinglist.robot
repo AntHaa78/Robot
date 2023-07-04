@@ -1,6 +1,5 @@
 *** Settings ***
 Library    Browser
-Resource    insurance_ex.robot
 
 *** Variables ***
 ${BROWSER}    firefox

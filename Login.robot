@@ -1,7 +1,6 @@
 *** Settings ***
 Library     SeleniumLibrary
 Library     totp.py
-Library     addingText.py
 Suite Setup     Open Browser        ${URL}      ${BROWSER}
 Suite Teardown    Close Browser
 
