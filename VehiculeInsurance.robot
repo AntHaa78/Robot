@@ -59,7 +59,7 @@ Enter Product Data
 Select Price Option
     #Select Radio Button    Select option    Gold
     Click Element    css:input[id="selectgold"] + span
-    Click Element    css:#nextsendquote     #css:section[style="display: block;"] button[id^="next"]
+    Click Element    css:#nextsendquote     #<- Element not interactable
 
 Send Quote
     Input Text    id:email    max.mustermann@example.com
