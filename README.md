@@ -2,15 +2,16 @@
 
 Different Robot Framework exercises/projects (Pycharm SeleniumLibrary):
 
-VehiculeInsurance.robot: Test filling forms about car insurance (http://sampleapp.tricentis.com/) with Chrome.
+VehiculeInsurance.robot: Filling forms test about car insurance (http://sampleapp.tricentis.com/).
 
-Login.robot: 2 Login tests Chrome (https://www.saucedemo.com/ and https://seleniumbase.io/realworld/login), call/use a function for MFA code.
+Login.robot: Basic login with usrname/password (https://www.saucedemo.com) 
+LoginMFA.robot : Login testing page with Multi-Factor Auth Code (https://seleniumbase.io/realworld/login)
 
 Amazonshoppinglist.robot: Test making a shopping list on Amazon.com (Work in Progress)
 
 FileWork.robot: Test on local files (Work in Progress)
 
-GoogleSearch.robot: Basic google search with CHrome.
+GoogleSearch.robot: Basic google search
 
 Operators.robot: Using operators in Robot Framework.
 
