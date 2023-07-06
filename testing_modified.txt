@@ -1,5 +1,5 @@
 
-RFW Organisation
+Robot Framework Organisation
 ***Settings***
 ***Variables***
 ***Test cases***
