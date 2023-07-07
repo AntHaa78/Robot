@@ -31,13 +31,11 @@ Post a booking
     Should Be Equal As Numbers    ${response.json()}[totalprice]    300
     Dictionary Should Contain Value     ${response.json()}    Breakfast
 
-
-
-
 Delete the booking
     ${header}    Create Dictionary    Cookie=token\=${token}
     ${response}    DELETE    url=https://restful-booker.herokuapp.com/booking/${id}    headers=${header}
     Status Should Be    201    ${response}
+
 
 *** Keywords ***
 Authentification
